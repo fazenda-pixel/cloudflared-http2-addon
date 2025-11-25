@@ -1,0 +1,15 @@
+{
+  "name": "Cloudflared HTTP2",
+  "version": "1.0.0",
+  "slug": "cloudflared-http2",
+  "description": "Cloudflare Tunnel with forced HTTP2 protocol",
+  "startup": "services",
+  "boot": "auto",
+  "arch": ["amd64"],
+  "options": {
+    "tunnel_name": "fazenga_tunnel"
+  },
+  "schema": {
+    "tunnel_name": "str"
+  }
+}
