@@ -1,0 +1,12 @@
+name: Cloudflared HTTP2
+version: "1.0.0"
+slug: cloudflared-http2
+description: Cloudflare Tunnel with forced HTTP2 protocol
+arch:
+  - amd64
+startup: services
+boot: auto
+options:
+  tunnel_name: fazenga_tunnel
+schema:
+  tunnel_name: str
